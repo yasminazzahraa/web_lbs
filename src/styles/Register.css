@@ -1,0 +1,85 @@
+@import './color.css';
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Madimi+One&display=swap');
+
+body{
+    height: 100vh;
+    background: white;
+    background-size: cover;
+}
+
+.register {
+
+    width: 500px;
+    height: 600px;
+    background-color: #D7E4C0;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px #637A9F;
+
+}
+
+.register .btn-register {
+    width: 100%;
+    margin-top : 30px;
+    cursor : pointer;
+}
+
+.register h1 {
+    margin-top: 20px;
+    color : var(--color-text);
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+.register .text-login {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register hr {
+    height: 25px;
+    width : 120px;
+    color : black;
+}
+
+.register p {
+    padding: 0px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.register .input-nama {
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.register .input-email {
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.register .input-password {
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.register .btn-register {
+    background-color: #D7E4C0;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 20px;
+}

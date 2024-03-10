@@ -1,0 +1,26 @@
+@import './color.css';
+
+.header {
+    background-color: #928c8c;
+}
+
+.header .baris-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.header .detail-akun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    border-radius: 90px;
+}

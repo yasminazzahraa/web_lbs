@@ -1,0 +1,86 @@
+@import './color.css';
+
+
+
+.sidebar {
+    width: 300px;
+    height: 990px;
+    background-color: antiquewhite;
+
+}
+
+.sidebar img {
+    width: 45px;
+    height: 45px;
+    /* background-color: aquamarine; */
+}
+
+.sidebar .logo-sidebar{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sidebar .menu-sidebar{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar .menu-sidebar .btn-menu{
+
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    border :none;
+
+}
+
+/* .sidebar .menu-sidebar .btn-menu-drop{
+   
+    width: 100%;
+    
+    background-color: antiquewhite;
+    border :none;
+    margin-bottom: 0px;
+
+} */
+.sidebar .menu-sidebar .btn-menu-drop button{
+   
+    width: 100%;
+    background-color: antiquewhite;
+    border :none;
+    margin-bottom: 0px;
+
+}
+
+.sidebar .menu-sidebar .btn-menu-drop button:hover{
+   
+    background-color: rgb(184, 163, 135);
+
+}
+
+.sidebar .menu-sidebar .btn-menu-drop button .click-drop:hover{
+   
+    background-color: rgb(184, 163, 135);
+
+}
+
+.sidebar .menu-sidebar .btn-menu:hover{
+    
+    background-color: rgb(184, 163, 135);
+    
+
+}
+
+.sidebar .row:nth-child(2){
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sidebar h5{
+    color: black;
+    padding-right: 10px;
+    /* background-color: blue; */
+}
